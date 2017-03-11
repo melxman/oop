@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Billing;
 /**
  * Created by PhpStorm.
  * User: hdcat
@@ -9,4 +10,11 @@
 class Wechat
 {
 
+    /**
+     * Wechat constructor.
+     */
+    public function __construct()
+    {
+        var_dump('wechat');
+    }
 }

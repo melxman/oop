@@ -11,6 +11,10 @@
 |
 */
 
+use App\Billing\Alipay;
+use App\Billing\Wechat;
+
 Route::get('/', function () {
-    return view('welcome');
+    $alipay = new Wechat() ;
+    //return view('welcome');
 });

@@ -1,5 +1,5 @@
 <?php
-
+    namespace App\Billing;
 /**
  * Created by PhpStorm.
  * User: hdcat
@@ -9,4 +9,12 @@
 class Alipay
 {
 
+
+    /**
+     * Alipay constructor.
+     */
+    public function __construct()
+    {
+        var_dump('alipay');
+    }
 }
